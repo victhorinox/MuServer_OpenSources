@@ -786,6 +786,9 @@
     <ClInclude Include="IllusionTemple2.h">
       <Filter>Header Files\Events</Filter>
     </ClInclude>
+    <ClInclude Include="AntiCrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -1525,6 +1528,9 @@
     </ClCompile>
     <ClCompile Include="IllusionTemple2.cpp">
       <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCrack.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

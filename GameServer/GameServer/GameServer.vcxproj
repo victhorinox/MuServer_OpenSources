@@ -261,6 +261,7 @@
     <ClInclude Include="..\..\Util\Math.h" />
     <ClInclude Include="380ItemOption.h" />
     <ClInclude Include="380ItemType.h" />
+    <ClInclude Include="AntiCrack.h" />
     <ClInclude Include="ArcaBattle.h" />
     <ClInclude Include="Attack.h" />
     <ClInclude Include="BattleGround.h" />
@@ -516,6 +517,7 @@
     <ClCompile Include="..\..\..\Util\Math.cpp" />
     <ClCompile Include="380ItemOption.cpp" />
     <ClCompile Include="380ItemType.cpp" />
+    <ClCompile Include="AntiCrack.cpp" />
     <ClCompile Include="ArcaBattle.cpp" />
     <ClCompile Include="Attack.cpp" />
     <ClCompile Include="BattleGround.cpp" />
