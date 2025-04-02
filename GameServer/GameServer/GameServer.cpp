@@ -31,6 +31,7 @@
 #include "CustomAttack.h"
 #include "CustomStore.h"
 #include "OfflineMode.h"
+#include "AntiCrack.h"
 
 HINSTANCE hInst;
 TCHAR szTitle[MAX_LOADSTRING];
@@ -39,6 +40,8 @@ HWND hWnd;
 
 int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nCmdShow) // OK
 {
+	gAntiCrack.MainProtection();
+
 	VM_START
 
 	CMiniDump::Start();
